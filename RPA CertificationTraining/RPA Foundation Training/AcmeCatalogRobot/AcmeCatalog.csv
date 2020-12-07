@@ -1,0 +1,46 @@
+﻿Title,URL,Description
+Google GSuite,https://go.uipath.com/component/google-gsuite,"This set of activities will help you interact with Google Calendar, Drive, Sheets, and Gmail"
+Activity Creator,https://go.uipath.com/component/activity-set-creator,A Visual Studio extension that creates custom activities for you in minutes
+Personal Interactive Assistant,https://go.uipath.com/component/personal-interactive-framework,An attended automation framework that enhances the interaction between the user and the robot
+ABBYY - FlexiCapture Connector,https://go.uipath.com/component/abbyy-flexicapture-connector-for-uipath-31cc20,ABBYY FlexiCapture Connector enables UiPath robot designers to connect ABBYY FlexiCapture Distributed into a robotic process flow
+Microsoft Office 365,https://go.uipath.com/component/microsoft-office-365-669054,"Productivity just got easier with robots that can now collaborate using Microsoft Office 365 Activities for Excel Online, Outlook and, OneDrive"
+UiPath Face Recognition Framework,https://go.uipath.com/component/uipath-face-recognition-framework-51c6f7,The recognition is completely based on deep learning neural network and implanted using Tensorflow framework
+Split Address,https://go.uipath.com/component/split-address,This snippet splits an address contained in a single string and creates pairs based on key words
+Generic Kibana Dashboard,https://go.uipath.com/component/generic_kibana_dashboard-104d35,"This is a generic dashboard that provide details like AHT, bot and process relation, etc. using the default logs generated in Kibana with the default index (eg : Robot name, etc)"
+AI-OCR Workflow for Fast Accounting,https://go.uipath.com/component/ai-ocr-workflow-for-fast-accounting,Workflow to easily invoke AI-OCR service of Fast Accounting via Web API
+Connector for Salesforce Lightning Platform,https://go.uipath.com/component/connector-for-salesforce-lightning-platform,A set of 100 Activities and 5 wizards that allow you to do a very fast implementation for Salesforce Lightning Platform
+Clothing Consultant - Robot Pack,https://go.uipath.com/component/clothing-consultant-robot-pack,This simple robot will show you the forecast and suggest clothing that’s appropriate for the day’s weather
+Public Records Request,https://go.uipath.com/component/public-records-request-7dbdba,Public Sector solution that takes user input and searches data repositories for matching data sets
+Orchestrator Smart Scheduler,https://go.uipath.com/component/orchestrator-smart-scheduler,Node.js app that will be able to start jobs or add queue items when some specific events occur
+REFramework as library,https://go.uipath.com/component/reframework-as-library,Classic Robotic Enterprise Framework implemented as custom activity
+Sentiment Analysis ML Model - on premise,https://go.uipath.com/component/sentiment-analysis-ml-model-on-premise,"This ML Model analyzes text fragments and returns a sentiment prediction between 0 and 1, where 0 is extremely negative and 1 is extremely positive"
+"Kibana Jobs, Errors, and Queues Dashboards",https://go.uipath.com/component/kibana-jobs-errors-and-queues-dashboards,"Interactive Kibana dashboards for jobs, errors, and queue processes, using data from robot logs pushed to Elasticsearch"
+Kill Processes per User,https://go.uipath.com/component/killprocessesperuser,Hard kill from a list of process names to clean Windows environment of open applications for the active user / robot
+Jenkins Plugin for UiPath - Public Preview,https://go.uipath.com/component/jenkins-plugin-for-uipath-public-preview,CI/CD pipelining for UiPath automation processes in Jenkins
+IBM Watson Empathy Pack,https://go.uipath.com/component/ibm-watson-empathy-pack-950c8a,Harness the brilliance of IBM Watson to give your robots a more human side
+Alpaca Form Builder,https://go.uipath.com/component/alpaca-uipath-form-builder,This library and project template allows UiPath Studio users to build rich HTML forms with a variety of UI controls and configurable validation
+Testing Framework for UiPath,https://go.uipath.com/component/uipath-testing-framework,Tired of testing workflows manually? This framework for running unit tests will help ease the development and save time
+Update Robot Password in Orchestrator,https://go.uipath.com/component/update-robot-password-on-orchestrator,PowerShell script to update the password of a provisioned Robot on Orchestrator
+IBM Watson Text Translator,https://go.uipath.com/component/ibm-watson-text-translator,Watson is now your personal interpreter
+Templateless Receipt Extraction ML model - cloud,https://go.uipath.com/component/templateless-receipt-extraction-ml-model-cloud,"This Machine Learning model extracts Business name and address, Total amount and Date from receipt images"
+Generate Dates Range,https://go.uipath.com/component/generate-dates-range,This component will generate a list of dates for a given scope.
+Power BI Jobs and Queues Dashboards,https://go.uipath.com/component/power-bi-jobs-and-queues-dashboards,"Interactive Power BI dashboards on the topic of jobs and queues processes, using data from the Orchestrator SQL Server database"
+Orchestrator for Node-RED,https://go.uipath.com/component/orchestrator-for-node-red-583833,"Orchestrator in overdrive. Webhooks, Custom UIs, IoT. Node-RED is the bridge that connects UiPath to the digital world over"
+Excel Extension Activities,https://go.uipath.com/component/excel-extension-activities,This Activity library allows easy integration with Excel. The Activities will mimic human actions. It also works with large excel files
+Robot Streaming,https://go.uipath.com/component/robot-streaming,This tool allows you to stream the work of an unattended/attended robot to any other machine in same domain/network
+Enhanced REFrameWork,https://go.uipath.com/component/enhanced-reframework-57011,"A UiPath Studio template upon which you can build, test and run attended and unattended business processes, irrespective of process data types and process linearity"
+Chatbot with Dialog flow,https://go.uipath.com/component/chatbot-with-dialogflow-ai,Sample integration with Dialog flow to create an RPA-enabled chatbot
+DocuSign Activity Pack for UiPath,https://go.uipath.com/component/docusign-activity-pack-for-uipath,Bringing Electronic Signing into the RPA world
+Intelligent Ticket Classifier - CLASSie,https://go.uipath.com/component/classie-ticket-classifier,"Intelligent email classification model, categorizing to a predefined set of ticket classes or work queues"
+Visible Rows Counter for SAP Solutions,https://go.uipath.com/component/table-visible-rows-counter-for-sap,Reusable workflow for counting the number of rows visible on screen inside an SAP table
+Generic Kibana Dashboard,https://go.uipath.com/component/generic_kibana_dashboard-104d35,"This is a generic dashboard that provide details like AHT, bot and process relation, etc. using the default logs generated in Kibana with the default index (eg : Robot name, etc)"
+AI-OCR Workflow for Fast Accounting,https://go.uipath.com/component/ai-ocr-workflow-for-fast-accounting,Workflow to easily invoke AI-OCR service of Fast Accounting via Web API
+Extended App Integration for PDF,https://go.uipath.com/component/extended-app-integration-for-pdf,Extended PDF activities using the PDFSharp library
+Investigator - The Monitoring Tool,https://go.uipath.com/component/investigator,Monitor and manage all your robot related configurations from one place
+Enhanced REFrameWork,https://go.uipath.com/component/enhanced-reframework-57011,"A UiPath Studio template upon which you can build, test and run attended and unattended business processes, irrespective of process data types and process linearity"
+Dropbox App Connector for UiPath,https://go.uipath.com/component/dropbox-app-connector-for-uipath,A custom Dropbox app connector for UiPath which is already used in custom UiPath Dropbox activities
+Expert System,https://go.uipath.com/component/client-for-expert-system-f3d6a8,The Expert System package provides natural language understanding functionalities
+UiPath Face Recognition Framework,https://go.uipath.com/component/uipath-face-recognition-framework-51c6f7,The recognition is completely based on deep learning neural network and implanted using Tensorflow framework
+Split Address,https://go.uipath.com/component/split-address,This snippet splits an address contained in a single string and creates pairs based on key words
+Tableau RPA Log Dashboard,https://go.uipath.com/component/savvy-insights,Dashboards supporting business decisions on Robots logs
+Upwire - Communication Workflow,https://go.uipath.com/component/upwire-workflow,"Communications workflow drag & drop tool: SMS, Voice, Email & micro-forms used to extend RPA with data capture or external RPA initiation"

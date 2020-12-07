@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+}
+
+.catalog-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.navbar-fixed-top {
+    max-height: 20%;
+}
+
+.logo {
+    max-height: 20%;
+}
+p {
+    font-size: 12px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
