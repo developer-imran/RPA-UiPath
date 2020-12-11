@@ -1651,15 +1651,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "AdvancedTraining-Assignment2-Dispatcher",
       "projectName": "AdvancedTraining-Assignment2-Dispatcher",
-      "projectPath": "D:\\CertificationTraining\\RPA Advance Training\\Generate Yearly Report - Assignment Dispatcher\\.local",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\CertificationTraining\\RPA Advance Training\\Generate Yearly Report - Assignment Dispatcher\\.local"
+      "projectPath": "F:\\Imran\\RPA git\\RPA CertificationTraining\\RPA Advance Training\\Generate Yearly Report - Assignment\\Generate Yearly Report - Dispatcher\\.local",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "F:\\Imran\\RPA git\\RPA CertificationTraining\\RPA Advance Training\\Generate Yearly Report - Assignment\\Generate Yearly Report - Dispatcher\\.local"
     },
     "frameworks": {
       "net461": {

@@ -2,8 +2,8 @@
 
 My Rpa experiments,
 
-This Repository contains bots and Certificates, that i have created while i was working on it and learning on my training, and now i am RPA developer.
-And i have practiced more than 6 month on RPA Uipath, so that i must be confident on it that i can convert huge bulk of business process into working bots.
+This Repository contains bots & Certificates, bots that I have created while I was working & practicing it & get certified during training period, now I am RPA developer.
+I have practiced more than 6 month and now almost 1 year being the part of Automation in RPA Uipath, using Uipath studio and tools, bcoz I wanted to be confident on it, that I can convert huge bulk of business jobs into working bots to finish the process in minimum amount of time that human being can't do.
 
 check out repository contents to be clarify...
 
