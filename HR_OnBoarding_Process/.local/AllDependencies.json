@@ -3317,9 +3317,9 @@
     "restore": {
       "projectUniqueName": "HR_OnBoarding_Process",
       "projectName": "HR_OnBoarding_Process",
-      "projectPath": "F:\\Imran\\RPA\\HR_OnBoarding_Process\\.local",
+      "projectPath": "F:\\Imran-GitHub\\HR_OnBoarding_Process\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran\\RPA\\HR_OnBoarding_Process\\.local"
+      "outputPath": "F:\\Imran-GitHub\\HR_OnBoarding_Process\\.local"
     },
     "frameworks": {
       "net461": {
