@@ -1,0 +1,275 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Process" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property sap2010:Annotation.AnnotationText="Transaction item to be processed." Name="in_TransactionItem" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1003.2,1624.8</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="26">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="38">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.Services.Common</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="687.2,1520" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="s:String[]" Name="folderFilesList" />
+      <Variable x:TypeArguments="x:String" Name="payRoll" />
+      <Variable x:TypeArguments="x:String" Name="appoitmentFile" />
+      <Variable x:TypeArguments="x:String" Name="designation" />
+      <Variable x:TypeArguments="x:String" Name="dateOfJoining" />
+      <Variable x:TypeArguments="x:String" Name="location" />
+      <Variable x:TypeArguments="x:String" Name="ctc" />
+      <Variable x:TypeArguments="x:String" Name="firstName" />
+      <Variable x:TypeArguments="x:String" Name="lastName" />
+      <Variable x:TypeArguments="x:String" Name="panNo" />
+      <Variable x:TypeArguments="x:String" Name="gender" />
+      <Variable x:TypeArguments="x:String" Name="ifscCode" />
+      <Variable x:TypeArguments="x:String" Name="dob" />
+      <Variable x:TypeArguments="x:String" Name="nameOfBank" />
+      <Variable x:TypeArguments="x:String" Name="acNo" />
+      <Variable x:TypeArguments="x:String" Name="empID" />
+      <Variable x:TypeArguments="x:String" Name="empEmail" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="645.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="s:String[]">[folderFilesList]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(in_TransactionItem)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each folderFilesList" sap:VirtualizedContainerService.HintSize="645.6,436.8" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[folderFilesList]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:String" Name="file" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="610.4,302.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If Condition="[Path.GetFileNameWithoutExtension(file).ToLower.Contains(&quot;appointment&quot;)]" sap:VirtualizedContainerService.HintSize="568.8,209.6" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Assign DisplayName="Assign appoitmentFile" sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[appoitmentFile]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[file]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </If.Then>
+              <If.Else>
+                <Assign DisplayName="Assign payRoll" sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[payRoll]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[file]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+    </ui:ForEach>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Seq - GetDataFromAppoLetter workflow" sap:VirtualizedContainerService.HintSize="645.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Extraxt Data\Seq - GetDataFromAppoLetter.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_appointmentFilePath">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="appoitmentFile" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_designation">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="designation" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_dateOfJoining">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="dateOfJoining" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_location">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="location" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_ctc">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="ctc" />
+        </OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="645.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[designation+vblf+dateOfJoining+vbLf+location+vbLf+ctc]" />
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Seq - GetDataFromPayrolForm workflow" sap:VirtualizedContainerService.HintSize="645.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Extraxt Data\Seq - GetDataFromPayrolForm.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_payRollFilePath">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="payRoll" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_firstName">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="firstName" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_lastName">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="lastName" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_dob">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="dob" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_panNo">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="panNo" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_gender">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="gender" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_nameOfBank">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="nameOfBank" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_acNo">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="acNo" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_ifscCode">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="ifscCode" />
+        </OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Seq - GetEmpID_n_MailID workflow" sap:VirtualizedContainerService.HintSize="645.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Extraxt Data\Seq - GetEmpID_n_MailID.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+          <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_firstName">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="firstName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_lastName">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="lastName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Dob">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="dob" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_designation">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="designation" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_gender">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="gender" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_empID">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="empID" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_empEmail">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="empEmail" />
+        </OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="645.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[empID+vblf+empEmail]" />
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Seq - AppendDataToMasterSheet workflow" sap:VirtualizedContainerService.HintSize="645.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Seq - AppendDataToMasterSheet.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+          <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_firstName">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="firstName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_lastName">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="lastName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_gender">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="gender" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_mailID">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="empEmail" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_pNo">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_designation">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="designation" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_location">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="location" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_dateOfJoining">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="dateOfJoining" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_empID">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="empID" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ctc">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="ctc" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_PanNo">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="panNo" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_nameofbank">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="nameOfBank" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_acNo">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="acNo" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ifscCode">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="ifscCode" />
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>
