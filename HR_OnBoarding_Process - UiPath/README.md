@@ -1,6 +1,8 @@
-# UiPath RPA
+# RPA-UiPath
 
 HR OnBoarding Process,
+
+=> The information below is exactly that this process do.
 
 1) Get the data from employees appointment letter and payroll declaration.
 2) Save into excel sheet 
@@ -8,5 +10,5 @@ HR OnBoarding Process,
 4) Move succeed files into successFiles folder.
 
 
-check out repository contents to be clarify...
+check out repository contents.
 
