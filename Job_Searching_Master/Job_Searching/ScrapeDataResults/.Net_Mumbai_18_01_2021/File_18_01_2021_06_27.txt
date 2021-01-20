@@ -1,0 +1,126 @@
+JobTitle
+"Full Stack Developer Specialist in .NET Technologies and Angular
+DEVENDRA PRASAD
+5 - 10 years
+₹ 10,00,000 - 20,00,000 P.A.
+Chennai, Pune, Mumbai, Bengaluru, Hyderabad
+SaveAPPLY
+Posted: 2 days agoOpenings: 4Job Applicants: 112Send Me Jobs Like This"
+"Your Job Match Score
+Early Applicant
+Keyskills
+Location
+Work Experience
+Job description
+
+We are looking for a Senior Full Stack Developer Specialist in .NET Technologies and Angular Framework for one of our clients.
+
+Company: Mumbai Based, 30 +Yrs old Stock-listed organization with a domestic and international presence.
+
+
+
+
+Experience: 5 - 10 years
+
+Notice: Immediate/15days
+
+Salary up to 20 LPA
+
+Location – work from home or Mumbai/Pune/Bangalore/Chennai
+
+
+
+
+Roles and Responsibilities:-
+
+
+
+
+1. The applicant should be an experienced hands-on developer with a history of working in an agile environment. Candidate must have proficiency and hands-on experience in .NET, MSSQL, and Angular with 6+ years of experience building the server-side and client-side of large consumer-facing web applications from the ground up.
+
+
+2. Tasks and deliverables:
+
+Work with an agile team to design, develop, test, debug, implement and maintain applications using ICT standard web-based and client-server development frameworks and technologies mainly C#, ASP.NET, ASP.NET Core, MSSQL, EF Core, EF6, Code First, DB First, AngularJS/Angular, node.js, TypeScript, HTML/CSS/SASS, JSON/XML/Ajax, Kendo UI, GitLab.
+Carry out required testing and quality assurance and ensure that deliverables meet software requirements based on the agreed time frame and milestones
+Develop cross-browser and cross-platform front-end web development including HTML, JavaScript, CSS, and the latest technologies
+Communicate technical solutions/concepts with trade-offs, risks, and benefits
+Develop a proof of concepts and prototypes which match industry standards
+
+
+3. Quality Assurance:
+
+All development tasks will be assigned in a Kanban type process by the Technical Lead, with progress being tracked in daily team meetings (morning hours EST time zone)
+Tasks will be considered completed after successful testing and sign-off by the business owner or Technical Lead
+
+
+Required skills and experiences:
+
+
+1. Proven track record working in an agile remote team with task-based deliveries 6+ years of experience with .NET Technologies with front end web development technologies 3+ years of experience in MSSQL 3+ years of experience in integrating front end with web services, RESTful APIs backend technologies such as .NET or .NET Core 3+ years hands-on experience in converting wireframes to web pages using Angular framework is required 3+ years of experience in building Rest APIs using C#
+
+2. Experience with word and pdf automation tools such as Spire Office or similar tools is desirable Experience with angular-CLI commands and build tools using npm Experience with cache services such as Redis, Mobile app frameworks such as Ionic, native script is desired Experience establishing and following agile software development methodologies such as SCRUM or Kanban, with certification desired Experience in branching and merging of source code using distributed source code versioning tools such as Git Experience in implementing real-time web functionality using technologies like SignalR Experience in implementing OpenID connect authentication Exposure to building application services on Amazon cloud services (AWS) or Microsoft Azure Exposure for the CI/CD pipelines with automated testing using tools like Angular test tools or Selenium Knowledge of microservices architecture, Docker container implementation or Azure Service Fabric Knowledge on best performance tuning and security practices.
+
+
+
+
+Qualifications: Bachelors degree, Master degree is a plus Microsoft MCTS or MCSA or Angular Certification is a plus
+
+
+
+
+#Interested, inbox your resume at kanika@digitalxnode.com
+
+
+
+
+
+RoleSoftware Developer
+Industry TypeIT-Software, Software Services
+Functional AreaIT Software - Application Programming, Maintenance
+Employment TypeFull Time, Permanent
+Role CategoryProgramming & Design
+Education
+UG :B.Tech/B.E. in Computers
+Key Skills
+Angularjs.Net CoreCSSHtml5Node.Js.Net FullstackJSONMS SQLEF6C#.NetJavascript.NetASP.NetMicrosoft AzureAjax
+Report this Job"
+"Kanika Goel
+
+Recruitment Consultant at Working As A Freelancer
+
+Show Contact Details
+B 30,,Villa,Omaxe Green Valley,Sector 41-42, , , FARIDABAD, Haryana, India
+Recruiter last active 3 days ago
+FOLLOW
+SEND MESSAGE
+32 Followers
+Credits Required"
+"About Company
+
+IT-Client
+
+Company Info
+AddressB 30,,Villa,Omaxe Green Valley,Sector 41-42, , , FARIDABAD, Haryana, India"
+"Beware of imposters!
+Naukri.com does not promise a job or an interview in exchange of money. Fraudsters may ask you to pay in the pretext of registration fee, Refundable Fee…Read More"
+"Leading IT Organisation - .net full stack - 8-13 Years
+PEARL CONSULTING
+Chennai, Bengaluru, Mumbai
+C#,Angularjs,UNIT,OOPS,E-commerce,nservice bus,SQL Server,SOAP,designing,Microservices,Solid,Rabbitm...Posted 19 days ago
+React JS with .NET Developers
+Trigyn Technologies ltd3.6(57 reviews)
+Bengaluru, Mumbai, Pune, Chennai
+Web Api,LINQ,C#.Net,.Net,ASP.Net,react,React.JsPosted 14 days ago
+Full Stack Developer – .Net with Angular
+Kefa Technology Solutions
+Chennai
+C#,.Net,MVC,AngularPosted 9 days ago
+Full Stack .NET Developer
+Expert Solutions Technologies4.1(2 reviews)
+Chennai
+C#,Angularjs,CSS,LINQ,SAAS,OOPS,SQL Server,ASP.Net MVC,JQuery,Product Development,Cloud,Javascript,A...Posted 2 days ago
+.Net Core with Angular - Full Stack Developer
+Blue Bird Technologies Pvt. Ltd.4.0(2 reviews)
+Chennai
+.Net Core,AngularPosted 11 days ago"
