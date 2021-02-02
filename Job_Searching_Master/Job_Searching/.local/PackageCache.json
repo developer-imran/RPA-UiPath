@@ -23,63 +23,6 @@
     },
     {
       "Package": {
-        "Id": "UiPath.System.Activities",
-        "Version": "20.10.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1"
-    },
-    {
-      "Package": {
         "Id": "UiPath.UIAutomation.Activities",
         "Version": "20.12.0-preview"
       },
@@ -132,6 +75,63 @@
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "20.10.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.3\\lib/net461/UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3"
     }
   ],
   "Conflicts": [],
@@ -728,7 +728,7 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "20.10.1",
+      "Version": "20.10.3",
       "Dependencies": [
         {
           "Item1": "UiPath.Platform",
@@ -1372,24 +1372,24 @@
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "20.10.1"
+        "Version": "20.10.3"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\CustomInputForm.exe",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\CustomInputForm.exe",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1"
+      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.3"
     },
     {
       "Package": {

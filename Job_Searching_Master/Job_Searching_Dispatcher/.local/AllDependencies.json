@@ -3492,9 +3492,9 @@
     "restore": {
       "projectUniqueName": "Job_Searching_Dispatcher",
       "projectName": "Job_Searching_Dispatcher",
-      "projectPath": "F:\\Imran-GitHub\\Job_Searching_Dispatcher\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\Job_Searching_Master\\Job_Searching_Dispatcher\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran-GitHub\\Job_Searching_Dispatcher\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\Job_Searching_Master\\Job_Searching_Dispatcher\\.local"
     },
     "frameworks": {
       "net461": {

@@ -857,7 +857,7 @@
           "lib/net461/UiPath.Platform.dll": {}
         }
       },
-      "UiPath.System.Activities/20.10.1": {
+      "UiPath.System.Activities/20.10.3": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "2.13.5",
@@ -2511,10 +2511,10 @@
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.System.Activities/20.10.1": {
-      "sha512": "Ho9XHfnlPXpXxPkCc9wQt5kffIuWKPSiS0TCr2yYrWs1V8cp6XKjZwv2znsB/VRMiHrQdE7ucBnvs3bpQEUouQ==",
+    "UiPath.System.Activities/20.10.3": {
+      "sha512": "TivmsA09tbv+wG9abR93owdCavHXXdB0pOUAPtp9u9LACpQJBcdAOZdp+wwlFNwGnNyq1lKYaUPFbfKepNVmwg==",
       "type": "package",
-      "path": "uipath.system.activities/20.10.1",
+      "path": "uipath.system.activities/20.10.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2553,7 +2553,7 @@
         "lib/net461/tr/UiPath.System.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.20.10.1.nupkg.sha512",
+        "uipath.system.activities.20.10.3.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
@@ -2851,7 +2851,7 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "UiPath.Excel.Activities >= 2.10.0-preview <= 2.10.0-preview",
-      "UiPath.System.Activities >= 20.10.1 <= 20.10.1",
+      "UiPath.System.Activities >= 20.10.3 <= 20.10.3",
       "UiPath.UIAutomation.Activities >= 20.12.0-preview <= 20.12.0-preview"
     ]
   },
@@ -2862,9 +2862,9 @@
     "restore": {
       "projectUniqueName": "Job_Searching",
       "projectName": "Job_Searching",
-      "projectPath": "F:\\Imran-GitHub\\Job_Searching_Master\\Job_Searching\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\Job_Searching_Master\\Job_Searching\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran-GitHub\\Job_Searching_Master\\Job_Searching\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\Job_Searching_Master\\Job_Searching\\.local"
     },
     "frameworks": {
       "net461": {
@@ -2877,7 +2877,7 @@
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[20.10.1, 20.10.1]"
+            "version": "[20.10.3, 20.10.3]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",

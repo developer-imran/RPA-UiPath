@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>938.4,806.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>824,806.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Seq___FindEmployer_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -69,7 +69,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  qsb-keyskill-sugg'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[in_TransactionItem.SpecificContent(&quot;technologies&quot;).ToString]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a8dbf2c4-a766-45d4-811e-021d763138d5" InformativeScreenshot="d90461a6156c3a9421e5031b3ffc6af9" Selector="&lt;html app='msedge.exe' title='Home | Mynaukri' /&gt;&lt;webctrl id='qsb-keyskill-sugg' tag='INPUT' type='text' parentid='search-jobs' title='Home | Mynaukri' parentname='quickSearchBarForm' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a8dbf2c4-a766-45d4-811e-021d763138d5" InformativeScreenshot="d90461a6156c3a9421e5031b3ffc6af9" Selector="&lt;html app='msedge.exe' title='Home | Mynaukri' /&gt;&lt;webctrl name='qp' tag='INPUT' type='text' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>

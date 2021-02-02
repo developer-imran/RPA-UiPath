@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>921.6,1491.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>824,2334.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Seq___DataScrappingFromJobProfile_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
@@ -40,7 +40,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="29">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="28">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -69,10 +69,9 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Seq___DataScrappingFromJobProfile" sap:VirtualizedContainerService.HintSize="516.8,1426.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Seq___DataScrappingFromJobProfile" sap:VirtualizedContainerService.HintSize="601.6,2269.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
       <Variable x:TypeArguments="x:String" Name="outputText" />
@@ -81,6 +80,7 @@
           <Literal x:TypeArguments="x:String" Value="" />
         </Variable.Default>
       </Variable>
+      <Variable x:TypeArguments="x:String" Name="createDir" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -88,29 +88,33 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Data Scraping from company profile" sap:VirtualizedContainerService.HintSize="475.2,1333.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Data Scraping from company profile" sap:VirtualizedContainerService.HintSize="560,2176.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" ContinueOnError="True" DisplayName="Attach Browser 'HiringAng Page'" sap:VirtualizedContainerService.HintSize="433.6,1240.8" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="45f4c659a4a5c57d252a58b9735cbcf1" Selector="&lt;html app='msedge.exe' title='*' url='https://www.naukri.com/job-listings*' /&gt;">
+      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" ContinueOnError="True" DisplayName="Attach Browser 'HiringAng Page'" sap:VirtualizedContainerService.HintSize="518.4,2084" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="45f4c659a4a5c57d252a58b9735cbcf1" Selector="&lt;html app='msedge.exe' title='*' url='https://www.naukri.com/job-listings*' /&gt;">
         <ui:BrowserScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do Scrape the data" sap:VirtualizedContainerService.HintSize="375.2,1093.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do Scrape the data" sap:VirtualizedContainerService.HintSize="484.8,1936.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="createFile" />
+                <Variable x:TypeArguments="x:String" Name="filePath" />
+              </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="443.2,338.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
@@ -177,8 +181,8 @@
                   </Catch>
                 </TryCatch.Catches>
               </TryCatch>
-              <ui:OutputDataTable DataTable="[ExtractDataTable]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[outputText]" />
-              <If Condition="[outputText.Trim.Equals(&quot;&quot;)]" DisplayName="If data not extracted than copy webpage " sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="If_1">
+              <ui:OutputDataTable DataTable="[ExtractDataTable]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="443.2,22.4" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[outputText]" />
+              <If Condition="[outputText.Trim.Equals(&quot;&quot;)]" DisplayName="If data not extracted than copy webpage " sap:VirtualizedContainerService.HintSize="443.2,52.8" sap2010:WorkflowViewState.IdRef="If_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -227,7 +231,7 @@
                   <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="Data is there" />
                 </If.Else>
               </If>
-              <Assign sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign sap:VirtualizedContainerService.HintSize="443.2,60" sap2010:WorkflowViewState.IdRef="Assign_2">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[outputText]</OutArgument>
                 </Assign.To>
@@ -235,7 +239,7 @@
                   <InArgument x:TypeArguments="x:String">[outputText.Trim+copiedTxt.Trim]</InArgument>
                 </Assign.Value>
               </Assign>
-              <Assign sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign sap:VirtualizedContainerService.HintSize="443.2,60" sap2010:WorkflowViewState.IdRef="Assign_1">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[in_fileName]</OutArgument>
                 </Assign.To>
@@ -243,10 +247,42 @@
                   <InArgument x:TypeArguments="x:String">[in_fileName.Trim.Replace("/","").Replace("-","").Replace(" ","")]</InArgument>
                 </Assign.Value>
               </Assign>
-              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="333.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[in_fileName]" />
-              <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder based on technolgy and location" sap:VirtualizedContainerService.HintSize="333.6,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[&quot;F:\Imran-GitHub\Job_Searching\ScrapeDataResults\&quot;+in_fileName.Trim+&quot;_&quot;+DateTime.Now.ToString(&quot;dd_MM_yyyy&quot;)]" />
-              <ui:WriteTextFile DisplayName="Write txt file in new created folder" FileName="[&quot;ScrapeDataResults\&quot;+in_fileName.Trim+&quot;_&quot;+DateTime.Now.ToString(&quot;dd_MM_yyyy&quot;)+&quot;\&quot;+&quot;File_&quot;+DateTime.Now.ToString(&quot;dd_MM_yyyy_mm_ss&quot;)+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[outputText]" />
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey close Tab" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="w" KeyModifiers="Ctrl">
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="443.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[in_fileName]" />
+              <ui:GetRobotAsset TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="Insert your prefered file path to store extracted file in your system, you can change it from orchestrator." AssetName="SearchJobsFilePath" DisplayName="Get Asset file path to save " sap:VirtualizedContainerService.HintSize="443.2,183.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+                <ui:GetRobotAsset.Value>
+                  <OutArgument x:TypeArguments="x:String">[filePath]</OutArgument>
+                </ui:GetRobotAsset.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:GetRobotAsset>
+              <Assign sap:VirtualizedContainerService.HintSize="443.2,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[createDir]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">[filePath+in_fileName.Trim+"_"+DateTime.Now.ToString("dd_MM_yyyy")]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:CreateDirectory ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="change main folder with your folder." DisplayName="Create Folder based on technolgy and location" sap:VirtualizedContainerService.HintSize="443.2,112" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[createDir]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:CreateDirectory>
+              <Assign sap:VirtualizedContainerService.HintSize="443.2,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[createFile]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">[createDir+"\"+"File_"+DateTime.Now.ToString("dd_MM_yyyy_mm_ss")+".txt"]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:WriteTextFile DisplayName="Write txt file in new created folder" FileName="[createFile]" sap:VirtualizedContainerService.HintSize="443.2,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[outputText]" />
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey close Tab" sap:VirtualizedContainerService.HintSize="443.2,156" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="w" KeyModifiers="Ctrl">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cd5e7b51-da11-44be-bb28-d17b7bc64b08" InformativeScreenshot="c13e87e598621fb8f9d83edcde2fe8ad" Selector="&lt;html app='msedge.exe' title='*' url='https://www.naukri.com/job-listings*' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -259,12 +295,12 @@
                 </ui:SendHotkey.Target>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:SendHotkey>
-              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="333.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Tab closed..." />
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="443.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Tab closed..." />
             </Sequence>
           </ActivityAction>
         </ui:BrowserScope.Body>
