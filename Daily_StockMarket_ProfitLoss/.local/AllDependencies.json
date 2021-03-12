@@ -3497,9 +3497,9 @@
     "restore": {
       "projectUniqueName": "Daily_StockMarket_ProfitLoss",
       "projectName": "Daily_StockMarket_ProfitLoss",
-      "projectPath": "F:\\Imran-GitHub\\Daily_StockMarket_ProfitLoss\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\Daily_StockMarket_ProfitLoss\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran-GitHub\\Daily_StockMarket_ProfitLoss\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\Daily_StockMarket_ProfitLoss\\.local"
     },
     "frameworks": {
       "net461": {

@@ -79,6 +79,7 @@
       <Variable x:TypeArguments="ss:SecureString" Name="upstox_Pass" />
       <Variable x:TypeArguments="x:String" Name="upstox_Username" />
       <Variable x:TypeArguments="x:String" Name="MyDob" />
+      <Variable x:TypeArguments="x:Boolean" Name="elementExist" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -102,9 +103,6 @@
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
               <Sequence DisplayName="Do -  login " sap:VirtualizedContainerService.HintSize="874.4,1843.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
-                <Sequence.Variables>
-                  <Variable x:TypeArguments="x:Boolean" Name="elementExist" />
-                </Sequence.Variables>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -166,9 +164,9 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Upstox_Credentials" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="443.2,22.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[upstox_Pass]" Username="[upstox_Username]" />
+                      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="your_credentialName_inAssets" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="443.2,22.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[upstox_Pass]" Username="[upstox_Username]" />
                       <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="443.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Upstox username : &quot;+upstox_Username+&quot;\n upstox password : &quot;+upstox_Pass.ToString]" />
-                      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="My_DOB" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="443.2,139.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
+                      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="yourAssetName_ofYour_Dob" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="443.2,139.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
                         <ui:GetRobotAsset.Value>
                           <OutArgument x:TypeArguments="x:String">[MyDob]</OutArgument>
                         </ui:GetRobotAsset.Value>
