@@ -3522,9 +3522,9 @@
     "restore": {
       "projectUniqueName": "CustomerSupport",
       "projectName": "CustomerSupport",
-      "projectPath": "F:\\Imran-GitHub\\CustomerSupport\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\CustomerSupport\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran-GitHub\\CustomerSupport\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\CustomerSupport\\.local"
     },
     "frameworks": {
       "net461": {

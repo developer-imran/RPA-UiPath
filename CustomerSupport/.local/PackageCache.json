@@ -2,6 +2,57 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.10.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\user\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.dll"
+      ],
+      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.10.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.10.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\user\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\user\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\user\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\user\\.nuget\\packages\\mailkit/2.2.0\\lib/net45/MailKit.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\user\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
+        "C:\\Users\\user\\.nuget\\packages\\mimekit/2.2.0\\lib/net45/MimeKit.dll",
+        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\user\\.nuget\\packages\\powershellstandard.library/5.1.0\\lib/netstandard2.0/System.Management.Automation.dll",
+        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.dll"
+      ],
+      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities\\1.10.0-preview"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "20.10.1"
       },
@@ -59,57 +110,6 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.10.0-preview"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.10.0-preview\\lib/net461/UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.10.0-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.10.0-preview"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\user\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\user\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
-        "C:\\Users\\user\\.nuget\\packages\\mailkit/2.2.0\\lib/net45/MailKit.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\mimekit/2.2.0\\lib/net45/MimeKit.dll",
-        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\powershellstandard.library/5.1.0\\lib/netstandard2.0/System.Management.Automation.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities/1.10.0-preview\\lib/net461/UiPath.Mail.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.mail.activities\\1.10.0-preview"
-    },
-    {
-      "Package": {
         "Id": "UiPath.UIAutomation.Activities",
         "Version": "20.12.0-preview"
       },
@@ -146,20 +146,20 @@
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.CV.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.CV.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UIAutomationCore.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.12.0-preview\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.Host.Common.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.3.0-preview\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview"
     }
@@ -1768,11 +1768,11 @@
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.CV.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.CV.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UIAutomationCore.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview\\lib\\net461\\UiPath.Wizards.dll"
       ],
       "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.12.0-preview"

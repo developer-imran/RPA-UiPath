@@ -3604,9 +3604,9 @@
     "restore": {
       "projectUniqueName": "Covid19Reports",
       "projectName": "Covid19Reports",
-      "projectPath": "F:\\Imran-GitHub\\Covid19Reports\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\Covid19Reports\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran-GitHub\\Covid19Reports\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\Covid19Reports\\.local"
     },
     "frameworks": {
       "net461": {

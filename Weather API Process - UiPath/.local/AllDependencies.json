@@ -3717,9 +3717,9 @@
     "restore": {
       "projectUniqueName": "Weather_API_JSON",
       "projectName": "Weather_API_JSON",
-      "projectPath": "F:\\Imran\\Working\\Weather API Process - UiPath\\.local",
+      "projectPath": "F:\\Imran-GitHub\\RPA-Uipath\\Weather API Process - UiPath\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\Imran\\Working\\Weather API Process - UiPath\\.local"
+      "outputPath": "F:\\Imran-GitHub\\RPA-Uipath\\Weather API Process - UiPath\\.local"
     },
     "frameworks": {
       "net461": {

@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>921.6,1827.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>850.4,1827.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
@@ -101,7 +101,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Naukri_Credential" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="648.8,22.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]" />
+                    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Your_NaukriCredentials" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="648.8,22.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]" />
                     <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[elementexist]" sap:VirtualizedContainerService.HintSize="648.8,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                       <ui:UiElementExists.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="18ef6164-7816-49a6-bda0-7d7d00166cae" InformativeScreenshot="c4a70a277e800404b093bb89a74dbb1f" Selector="&lt;html app='msedge.exe' title='Home | Mynaukri' /&gt;&lt;webctrl aaname=' Top Companies Hiring' parentid='root' tag='SPAN' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
