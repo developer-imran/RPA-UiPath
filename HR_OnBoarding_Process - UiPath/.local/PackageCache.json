@@ -2,210 +2,179 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.9.3"
+        "Id": "UiPath.Word.Activities",
+        "Version": "1.6.4"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.9.3\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.9.3\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities/2.9.3\\lib/net461/UiPath.Excel.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\docxcore/1.0.9\\lib/netstandard2.0/DocXCore.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.dotnet.platformabstractions/2.0.4\\lib/net45/Microsoft.DotNet.PlatformAbstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencymodel/2.0.4\\lib/net451/Microsoft.Extensions.DependencyModel.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.primitives/4.3.0\\lib/net46/Microsoft.Win32.Primitives.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.appcontext/4.3.0\\lib/net46/System.AppContext.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.primitives/4.3.0\\lib/net45/System.ComponentModel.Primitives.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.console/4.3.0\\lib/net46/System.Console.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource/4.3.0\\lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common/4.5.0-preview2-26406-04\\lib/net461/System.Drawing.Common.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization.calendars/4.3.0\\lib/net46/System.Globalization.Calendars.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression/4.3.0\\runtimes/win/lib/net46/System.IO.Compression.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression.zipfile/4.3.0\\lib/net46/System.IO.Compression.ZipFile.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem/4.3.0\\lib/net46/System.IO.FileSystem.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem.primitives/4.3.0\\lib/net46/System.IO.FileSystem.Primitives.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.packaging/4.4.1\\lib/net46/System.IO.Packaging.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.net.http/4.3.0\\runtimes/win/lib/net46/System.Net.Http.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.net.sockets/4.3.0\\lib/net46/System.Net.Sockets.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.typeextensions/4.4.0\\lib/net461/System.Reflection.TypeExtensions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation/4.3.0\\runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.algorithms/4.3.0\\runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.encoding/4.3.0\\runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.primitives/4.3.0\\lib/net46/System.Security.Cryptography.Primitives.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.x509certificates/4.3.0\\runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows/4.4.1\\runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.readerwriter/4.3.0\\lib/net46/System.Xml.ReaderWriter.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities/1.6.4\\lib/net461/UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities/1.6.4\\lib/net461/UiPath.Word.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities/1.6.4\\lib/net461/UiPath.Word.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities/1.6.4\\lib/net461/UiPath.Word.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.9.3"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities\\3.3.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.System.Activities",
-        "Version": "20.10.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.10.6"
+        "Version": "21.4.3"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\aforge/2.2.5\\lib/AForge.dll",
-        "C:\\Users\\user\\.nuget\\packages\\aforge.imaging/2.2.5\\lib/AForge.Imaging.dll",
-        "C:\\Users\\user\\.nuget\\packages\\aforge.math/2.2.5\\lib/AForge.Math.dll",
-        "C:\\Users\\user\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\user\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\user\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath/20.10.7585.27318\\lib/UiPath.Interop.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath/21.4.23.31065\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomation.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities/21.4.3\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3"
     },
     {
       "Package": {
-        "Id": "UiPath.Word.Activities",
-        "Version": "1.5.3"
+        "Id": "UiPath.System.Activities",
+        "Version": "21.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\docx/1.0.0.18\\lib/net40/DocX.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities/21.4.0\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities/21.4.0\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities/21.4.0\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities\\1.5.3"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities\\21.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities/3.4.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities/3.4.0\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities/3.4.0\\lib/net461/UiPath.PDF.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities/3.4.0\\lib/net461/UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.10.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities/2.10.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities/2.10.4\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities/2.10.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities/2.10.4\\lib/net461/UiPath.Excel.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
-    "AForge": {
-      "Id": "AForge",
-      "Version": "2.2.5",
-      "Dependencies": []
-    },
-    "AForge.Imaging": {
-      "Id": "AForge.Imaging",
-      "Version": "2.2.5",
-      "Dependencies": [
-        {
-          "Item1": "AForge",
-          "Item2": "[2.2.5, )"
-        },
-        {
-          "Item1": "AForge.Math",
-          "Item2": "[2.2.5, )"
-        }
-      ]
-    },
-    "AForge.Math": {
-      "Id": "AForge.Math",
-      "Version": "2.2.5",
-      "Dependencies": [
-        {
-          "Item1": "AForge",
-          "Item2": "[2.2.5, )"
-        }
-      ]
-    },
-    "AvalonEdit": {
-      "Id": "AvalonEdit",
-      "Version": "5.0.3",
-      "Dependencies": []
-    },
     "BitMiracle.Docotic.Pdf": {
       "Id": "BitMiracle.Docotic.Pdf",
-      "Version": "5.10.9957",
+      "Version": "7.5.11645",
       "Dependencies": []
     },
     "ClosedXML": {
@@ -220,28 +189,56 @@
     },
     "CsvHelper": {
       "Id": "CsvHelper",
-      "Version": "2.13.5",
-      "Dependencies": []
+      "Version": "16.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.4.0, )"
+        }
+      ]
     },
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
       "Dependencies": []
     },
-    "DocX": {
-      "Id": "DocX",
-      "Version": "1.0.0.18",
-      "Dependencies": []
-    },
-    "Extended.Wpf.Toolkit": {
-      "Id": "Extended.Wpf.Toolkit",
-      "Version": "3.8.1",
-      "Dependencies": []
-    },
-    "Humanizer.Core": {
-      "Id": "Humanizer.Core",
-      "Version": "2.4.2",
-      "Dependencies": []
+    "DocXCore": {
+      "Id": "DocXCore",
+      "Version": "1.0.9",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyModel",
+          "Item2": "[2.0.4, )"
+        },
+        {
+          "Item1": "NuGet.CommandLine",
+          "Item2": "[4.6.2, )"
+        },
+        {
+          "Item1": "System.ComponentModel.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[4.5.0-preview2-26406-04, )"
+        },
+        {
+          "Item1": "System.IO.Packaging",
+          "Item2": "[4.4.1, )"
+        },
+        {
+          "Item1": "System.Reflection.TypeExtensions",
+          "Item2": "[4.4.0, )"
+        },
+        {
+          "Item1": "System.Security.Principal.Windows",
+          "Item2": "[4.4.1, )"
+        }
+      ]
     },
     "Microsoft.AspNet.SignalR.Client": {
       "Id": "Microsoft.AspNet.SignalR.Client",
@@ -399,6 +396,16 @@
         }
       ]
     },
+    "Microsoft.CSharp": {
+      "Id": "Microsoft.CSharp",
+      "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "Microsoft.DotNet.PlatformAbstractions": {
+      "Id": "Microsoft.DotNet.PlatformAbstractions",
+      "Version": "2.0.4",
+      "Dependencies": []
+    },
     "Microsoft.Extensions.Configuration": {
       "Id": "Microsoft.Extensions.Configuration",
       "Version": "3.1.6",
@@ -447,6 +454,20 @@
       "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "Version": "3.1.6",
       "Dependencies": []
+    },
+    "Microsoft.Extensions.DependencyModel": {
+      "Id": "Microsoft.Extensions.DependencyModel",
+      "Version": "2.0.4",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.DotNet.PlatformAbstractions",
+          "Item2": "[2.0.4, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[9.0.1, )"
+        }
+      ]
     },
     "Microsoft.Extensions.Logging": {
       "Id": "Microsoft.Extensions.Logging",
@@ -507,6 +528,11 @@
         }
       ]
     },
+    "Microsoft.NETCore.Platforms": {
+      "Id": "Microsoft.NETCore.Platforms",
+      "Version": "1.1.0",
+      "Dependencies": []
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -519,17 +545,199 @@
     },
     "Microsoft.VisualStudio.OLE.Interop": {
       "Id": "Microsoft.VisualStudio.OLE.Interop",
-      "Version": "7.10.6071",
+      "Version": "16.7.30328.74",
       "Dependencies": []
+    },
+    "Microsoft.Win32.Primitives": {
+      "Id": "Microsoft.Win32.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "NETStandard.Library": {
+      "Id": "NETStandard.Library",
+      "Version": "1.6.1",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.NETCore.Platforms",
+          "Item2": "[1.1.0, )"
+        },
+        {
+          "Item1": "Microsoft.Win32.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.AppContext",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Collections",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Collections.Concurrent",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Console",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Debug",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Tools",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Tracing",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Globalization",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Globalization.Calendars",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.Compression",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.Compression.ZipFile",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.FileSystem",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.FileSystem.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Linq",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Linq.Expressions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Http",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Sockets",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.ObjectModel",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Resources.ResourceManager",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Handles",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.InteropServices",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.InteropServices.RuntimeInformation",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Numerics",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Algorithms",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Encoding",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.X509Certificates",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.Encoding",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.Encoding.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.RegularExpressions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading.Timer",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Xml.ReaderWriter",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Xml.XDocument",
+          "Item2": "[4.3.0, )"
+        }
+      ]
     },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
       "Version": "11.0.2",
-      "Dependencies": []
-    },
-    "NLog": {
-      "Id": "NLog",
-      "Version": "4.5.11",
       "Dependencies": []
     },
     "NPOI": {
@@ -542,9 +750,19 @@
         }
       ]
     },
+    "NuGet.CommandLine": {
+      "Id": "NuGet.CommandLine",
+      "Version": "4.6.2",
+      "Dependencies": []
+    },
     "SharpZipLib": {
       "Id": "SharpZipLib",
       "Version": "1.2.0",
+      "Dependencies": []
+    },
+    "System.AppContext": {
+      "Id": "System.AppContext",
+      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Buffers": {
@@ -552,9 +770,14 @@
       "Version": "4.5.1",
       "Dependencies": []
     },
-    "System.Collections.Immutable": {
-      "Id": "System.Collections.Immutable",
-      "Version": "1.5.0",
+    "System.Collections": {
+      "Id": "System.Collections",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Collections.Concurrent": {
+      "Id": "System.Collections.Concurrent",
+      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.ComponentModel.Annotations": {
@@ -562,10 +785,95 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
+    "System.ComponentModel.Primitives": {
+      "Id": "System.ComponentModel.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Console": {
+      "Id": "System.Console",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Debug": {
+      "Id": "System.Diagnostics.Debug",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.DiagnosticSource": {
+      "Id": "System.Diagnostics.DiagnosticSource",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Tools": {
+      "Id": "System.Diagnostics.Tools",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Tracing": {
+      "Id": "System.Diagnostics.Tracing",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Drawing.Common": {
+      "Id": "System.Drawing.Common",
+      "Version": "4.5.0-preview2-26406-04",
+      "Dependencies": []
+    },
+    "System.Globalization": {
+      "Id": "System.Globalization",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Globalization.Calendars": {
+      "Id": "System.Globalization.Calendars",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO": {
+      "Id": "System.IO",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
       "Version": "3.0.10",
       "Dependencies": []
+    },
+    "System.IO.Compression": {
+      "Id": "System.IO.Compression",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.Compression.ZipFile": {
+      "Id": "System.IO.Compression.ZipFile",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.FileSystem": {
+      "Id": "System.IO.FileSystem",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.IO.FileSystem.Primitives",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.IO.FileSystem.Primitives": {
+      "Id": "System.IO.FileSystem.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.Packaging": {
+      "Id": "System.IO.Packaging",
+      "Version": "4.4.1",
+      "Dependencies": [
+        {
+          "Item1": "NETStandard.Library",
+          "Item2": "[1.6.1, )"
+        }
+      ]
     },
     "System.IO.Pipelines": {
       "Id": "System.IO.Pipelines",
@@ -585,6 +893,21 @@
         }
       ]
     },
+    "System.Linq": {
+      "Id": "System.Linq",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Linq.Expressions": {
+      "Id": "System.Linq.Expressions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Management.Automation": {
+      "Id": "System.Management.Automation",
+      "Version": "6.1.7601.17515",
+      "Dependencies": []
+    },
     "System.Memory": {
       "Id": "System.Memory",
       "Version": "4.5.4",
@@ -603,14 +926,147 @@
         }
       ]
     },
+    "System.Net.Http": {
+      "Id": "System.Net.Http",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Diagnostics.DiagnosticSource",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.X509Certificates",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Net.Primitives": {
+      "Id": "System.Net.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Net.Sockets": {
+      "Id": "System.Net.Sockets",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.Numerics.Vectors": {
       "Id": "System.Numerics.Vectors",
       "Version": "4.5.0",
       "Dependencies": []
     },
+    "System.ObjectModel": {
+      "Id": "System.ObjectModel",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection": {
+      "Id": "System.Reflection",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection.Extensions": {
+      "Id": "System.Reflection.Extensions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection.Primitives": {
+      "Id": "System.Reflection.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection.TypeExtensions": {
+      "Id": "System.Reflection.TypeExtensions",
+      "Version": "4.4.0",
+      "Dependencies": []
+    },
+    "System.Resources.ResourceManager": {
+      "Id": "System.Resources.ResourceManager",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime": {
+      "Id": "System.Runtime",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.Runtime.CompilerServices.Unsafe": {
       "Id": "System.Runtime.CompilerServices.Unsafe",
       "Version": "4.7.1",
+      "Dependencies": []
+    },
+    "System.Runtime.Extensions": {
+      "Id": "System.Runtime.Extensions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.Handles": {
+      "Id": "System.Runtime.Handles",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.InteropServices": {
+      "Id": "System.Runtime.InteropServices",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.InteropServices.RuntimeInformation": {
+      "Id": "System.Runtime.InteropServices.RuntimeInformation",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.Numerics": {
+      "Id": "System.Runtime.Numerics",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.Algorithms": {
+      "Id": "System.Security.Cryptography.Algorithms",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Security.Cryptography.Primitives",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Security.Cryptography.Encoding": {
+      "Id": "System.Security.Cryptography.Encoding",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.Primitives": {
+      "Id": "System.Security.Cryptography.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.X509Certificates": {
+      "Id": "System.Security.Cryptography.X509Certificates",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Security.Cryptography.Algorithms",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Encoding",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Security.Principal.Windows": {
+      "Id": "System.Security.Principal.Windows",
+      "Version": "4.4.1",
+      "Dependencies": []
+    },
+    "System.Text.Encoding": {
+      "Id": "System.Text.Encoding",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Text.Encoding.Extensions": {
+      "Id": "System.Text.Encoding.Extensions",
+      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Text.Encodings.Web": {
@@ -661,6 +1117,16 @@
         }
       ]
     },
+    "System.Text.RegularExpressions": {
+      "Id": "System.Text.RegularExpressions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Threading": {
+      "Id": "System.Threading",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.Threading.Channels": {
       "Id": "System.Threading.Channels",
       "Version": "4.7.1",
@@ -671,9 +1137,14 @@
         }
       ]
     },
+    "System.Threading.Tasks": {
+      "Id": "System.Threading.Tasks",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
-      "Version": "4.10.0",
+      "Version": "5.0.0",
       "Dependencies": []
     },
     "System.Threading.Tasks.Extensions": {
@@ -686,19 +1157,34 @@
         }
       ]
     },
+    "System.Threading.Timer": {
+      "Id": "System.Threading.Timer",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.ValueTuple": {
       "Id": "System.ValueTuple",
       "Version": "4.5.0",
       "Dependencies": []
     },
+    "System.Xml.ReaderWriter": {
+      "Id": "System.Xml.ReaderWriter",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Xml.XDocument": {
+      "Id": "System.Xml.XDocument",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "20.10.7585.27318",
+      "Version": "21.4.23.31065",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
-      "Version": "2.9.3",
+      "Version": "2.10.4",
       "Dependencies": [
         {
           "Item1": "ClosedXML",
@@ -706,7 +1192,7 @@
         },
         {
           "Item1": "CsvHelper",
-          "Item2": "[2.13.5, )"
+          "Item2": "[15.0.5, )"
         },
         {
           "Item1": "DocumentFormat.OpenXml",
@@ -714,7 +1200,7 @@
         },
         {
           "Item1": "Microsoft.VisualStudio.OLE.Interop",
-          "Item2": "[7.10.6071, )"
+          "Item2": "[16.7.30328.74, )"
         },
         {
           "Item1": "NPOI",
@@ -728,60 +1214,44 @@
     },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
-      "Version": "2.4.0",
+      "Version": "3.0.0",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
-        },
-        {
-          "Item1": "AForge.Imaging",
-          "Item2": "[2.2.5, )"
-        },
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "NLog",
-          "Item2": "[4.5.11, )"
-        },
-        {
-          "Item1": "System.Collections.Immutable",
-          "Item2": "[1.5.0, )"
-        },
-        {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.5.0, )"
+          "Item2": "[2.7.3, )"
         }
       ]
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.7.1",
+      "Version": "2.7.3",
       "Dependencies": []
     },
     "UiPath.PDF.Activities": {
       "Id": "UiPath.PDF.Activities",
-      "Version": "3.3.0",
+      "Version": "3.4.0",
       "Dependencies": [
-        {
-          "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
-        },
         {
           "Item1": "System.ValueTuple",
           "Item2": "[4.5.0, )"
         },
         {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.3, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
+        },
+        {
           "Item1": "BitMiracle.Docotic.Pdf",
-          "Item2": "[5.10.9957, )"
+          "Item2": "[7.5.11645, )"
         }
       ]
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "20.10.4",
+      "Version": "21.4.0",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -799,15 +1269,11 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "20.10.1",
+      "Version": "21.4.0",
       "Dependencies": [
         {
-          "Item1": "UiPath.Platform",
-          "Item2": "[20.10.4, )"
-        },
-        {
           "Item1": "CsvHelper",
-          "Item2": "[2.13.5, )"
+          "Item2": "[16.0.0, )"
         },
         {
           "Item1": "Microsoft.AspNet.SignalR.Client",
@@ -816,10 +1282,6 @@
         {
           "Item1": "Microsoft.AspNetCore.SignalR.Client",
           "Item2": "[3.1.6, )"
-        },
-        {
-          "Item1": "Microsoft.Bcl.AsyncInterfaces",
-          "Item2": "[1.1.1, )"
         },
         {
           "Item1": "Microsoft.Rest.ClientRuntime",
@@ -834,76 +1296,56 @@
           "Item2": "[1.2.0, )"
         },
         {
-          "Item1": "System.Buffers",
-          "Item2": "[4.5.1, )"
+          "Item1": "System.Management.Automation",
+          "Item2": "[6.1.7601.17515, )"
         },
         {
-          "Item1": "System.Memory",
-          "Item2": "[4.5.4, )"
+          "Item1": "UiPath.Platform",
+          "Item2": "[21.4.0, )"
         },
         {
-          "Item1": "System.Numerics.Vectors",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "System.Runtime.CompilerServices.Unsafe",
-          "Item2": "[4.7.1, )"
-        },
-        {
-          "Item1": "System.Threading.Tasks.Extensions",
-          "Item2": "[4.5.4, )"
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
         }
       ]
     },
     "UiPath.Telemetry.Client": {
       "Id": "UiPath.Telemetry.Client",
-      "Version": "1.2.20",
+      "Version": "1.3.18",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.1, )"
+          "Item2": "[11.0.2, )"
         },
         {
           "Item1": "System.Threading.Tasks.Dataflow",
-          "Item2": "[4.10.0, )"
+          "Item2": "[5.0.0, )"
         }
       ]
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "20.10.6",
+      "Version": "21.4.3",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[20.10.7585.27318, 20.10.7585.27318]"
+          "Item2": "[21.4.23.31065, 21.4.23.31065]"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[2.2.0, )"
+          "Item2": "[3.0.1, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
+          "Item2": "[2.7.3, )"
         },
         {
           "Item1": "UiPath.OCR.Activities",
-          "Item2": "[2.4.0, )"
+          "Item2": "[3.0.0, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[20.10.4, )"
-        },
-        {
-          "Item1": "AvalonEdit",
-          "Item2": "[5.0.3, )"
-        },
-        {
-          "Item1": "Extended.Wpf.Toolkit",
-          "Item2": "[3.8.1, )"
-        },
-        {
-          "Item1": "Humanizer.Core",
-          "Item2": "[2.4.2, )"
+          "Item2": "[21.4.0, )"
         },
         {
           "Item1": "Newtonsoft.Json",
@@ -915,27 +1357,27 @@
         },
         {
           "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.2.20, )"
+          "Item2": "[1.3.18, )"
         }
       ]
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "2.2.0",
+      "Version": "3.0.1",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
+          "Item2": "[2.7.3, )"
         }
       ]
     },
     "UiPath.Word.Activities": {
       "Id": "UiPath.Word.Activities",
-      "Version": "1.5.3",
+      "Version": "1.6.4",
       "Dependencies": [
         {
-          "Item1": "DocX",
-          "Item2": "[1.0.0.18, )"
+          "Item1": "DocXCore",
+          "Item2": "[1.0.9, )"
         }
       ]
     }
@@ -943,53 +1385,13 @@
   "AllPackages": [
     {
       "Package": {
-        "Id": "AForge",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\aforge\\2.2.5\\lib\\AForge.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\aforge\\2.2.5"
-    },
-    {
-      "Package": {
-        "Id": "AForge.Imaging",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\aforge.imaging\\2.2.5\\lib\\AForge.Imaging.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\aforge.imaging\\2.2.5"
-    },
-    {
-      "Package": {
-        "Id": "AForge.Math",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\aforge.math\\2.2.5\\lib\\AForge.Math.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\aforge.math\\2.2.5"
-    },
-    {
-      "Package": {
-        "Id": "AvalonEdit",
-        "Version": "5.0.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\avalonedit\\5.0.3"
-    },
-    {
-      "Package": {
         "Id": "BitMiracle.Docotic.Pdf",
-        "Version": "5.10.9957"
+        "Version": "7.5.11645"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\bitmiracle.docotic.pdf\\5.10.9957\\lib\\net40\\BitMiracle.Docotic.Pdf.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\lib\\net46\\BitMiracle.Docotic.Pdf.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\bitmiracle.docotic.pdf\\5.10.9957"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645"
     },
     {
       "Package": {
@@ -997,19 +1399,19 @@
         "Version": "0.87.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\closedxml\\0.87.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\closedxml\\0.87.1"
     },
     {
       "Package": {
         "Id": "CsvHelper",
-        "Version": "2.13.5"
+        "Version": "16.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\csvhelper\\2.13.5\\lib\\net40-client\\CsvHelper.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\net45\\CsvHelper.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\csvhelper\\2.13.5"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\csvhelper\\16.0.0"
     },
     {
       "Package": {
@@ -1017,43 +1419,19 @@
         "Version": "2.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\documentformat.openxml\\2.5.0"
     },
     {
       "Package": {
-        "Id": "DocX",
-        "Version": "1.0.0.18"
+        "Id": "DocXCore",
+        "Version": "1.0.9"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\docx\\1.0.0.18\\lib\\net40\\DocX.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\docxcore\\1.0.9\\lib\\netstandard2.0\\DocXCore.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\docx\\1.0.0.18"
-    },
-    {
-      "Package": {
-        "Id": "Extended.Wpf.Toolkit",
-        "Version": "3.8.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
-    },
-    {
-      "Package": {
-        "Id": "Humanizer.Core",
-        "Version": "2.4.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.4.2\\lib\\netstandard2.0\\Humanizer.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.4.2"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\docxcore\\1.0.9"
     },
     {
       "Package": {
@@ -1061,9 +1439,9 @@
         "Version": "2.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
     },
     {
       "Package": {
@@ -1071,9 +1449,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Connections.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1081,9 +1459,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Client.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
     },
     {
       "Package": {
@@ -1091,9 +1469,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
     },
     {
       "Package": {
@@ -1101,9 +1479,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
     },
     {
       "Package": {
@@ -1111,9 +1489,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
     },
     {
       "Package": {
@@ -1121,9 +1499,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
     },
     {
       "Package": {
@@ -1131,9 +1509,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
     },
     {
       "Package": {
@@ -1141,9 +1519,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
     },
     {
       "Package": {
@@ -1151,9 +1529,29 @@
         "Version": "1.1.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CSharp",
+        "Version": "4.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.DotNet.PlatformAbstractions",
+        "Version": "2.0.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\lib\\net45\\Microsoft.DotNet.PlatformAbstractions.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4"
     },
     {
       "Package": {
@@ -1161,9 +1559,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
     },
     {
       "Package": {
@@ -1171,9 +1569,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1181,9 +1579,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
     },
     {
       "Package": {
@@ -1191,9 +1589,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\net461\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\net461\\Microsoft.Extensions.DependencyInjection.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
     },
     {
       "Package": {
@@ -1201,9 +1599,19 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.DependencyModel",
+        "Version": "2.0.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4\\lib\\net451\\Microsoft.Extensions.DependencyModel.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4"
     },
     {
       "Package": {
@@ -1211,9 +1619,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
     },
     {
       "Package": {
@@ -1221,9 +1629,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1231,9 +1639,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
     },
     {
       "Package": {
@@ -1241,9 +1649,19 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.NETCore.Platforms",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\lib\\netstandard1.0\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0"
     },
     {
       "Package": {
@@ -1251,19 +1669,37 @@
         "Version": "2.3.21"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
     },
     {
       "Package": {
         "Id": "Microsoft.VisualStudio.OLE.Interop",
-        "Version": "7.10.6071"
+        "Version": "16.7.30328.74"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\lib\\Microsoft.VisualStudio.OLE.Interop.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib\\net45\\Microsoft.VisualStudio.OLE.Interop.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Win32.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\lib\\net46\\Microsoft.Win32.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "NETStandard.Library",
+        "Version": "1.6.1"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\1.6.1"
     },
     {
       "Package": {
@@ -1271,19 +1707,9 @@
         "Version": "11.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\11.0.2"
-    },
-    {
-      "Package": {
-        "Id": "NLog",
-        "Version": "4.5.11"
-      },
-      "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\nlog\\4.5.11\\lib\\net45\\NLog.dll"
-      ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\nlog\\4.5.11"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\11.0.2"
     },
     {
       "Package": {
@@ -1291,12 +1717,20 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\user\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\npoi\\2.4.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "NuGet.CommandLine",
+        "Version": "4.6.2"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\nuget.commandline\\4.6.2"
     },
     {
       "Package": {
@@ -1304,9 +1738,19 @@
         "Version": "1.2.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\sharpziplib\\1.2.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\sharpziplib\\1.2.0"
+    },
+    {
+      "Package": {
+        "Id": "System.AppContext",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.appcontext\\4.3.0\\lib\\net46\\System.AppContext.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.appcontext\\4.3.0"
     },
     {
       "Package": {
@@ -1314,19 +1758,29 @@
         "Version": "4.5.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.5.1"
     },
     {
       "Package": {
-        "Id": "System.Collections.Immutable",
-        "Version": "1.5.0"
+        "Id": "System.Collections",
+        "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.collections.immutable\\1.5.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.collections\\4.3.0\\lib\\net45\\_._"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.collections.immutable\\1.5.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.collections\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Collections.Concurrent",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.collections.concurrent\\4.3.0"
     },
     {
       "Package": {
@@ -1334,9 +1788,109 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+    },
+    {
+      "Package": {
+        "Id": "System.ComponentModel.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\lib\\net45\\System.ComponentModel.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Console",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.console\\4.3.0\\lib\\net46\\System.Console.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.console\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Diagnostics.Debug",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.debug\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Diagnostics.DiagnosticSource",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\lib\\net46\\System.Diagnostics.DiagnosticSource.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Diagnostics.Tools",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tools\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Diagnostics.Tracing",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Drawing.Common",
+        "Version": "4.5.0-preview2-26406-04"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\4.5.0-preview2-26406-04\\lib\\net461\\System.Drawing.Common.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\4.5.0-preview2-26406-04"
+    },
+    {
+      "Package": {
+        "Id": "System.Globalization",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Globalization.Calendars",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\lib\\net46\\System.Globalization.Calendars.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization.calendars\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io\\4.3.0"
     },
     {
       "Package": {
@@ -1344,9 +1898,59 @@
         "Version": "3.0.10"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Compression",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression\\4.3.0\\lib\\net46\\System.IO.Compression.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Compression.ZipFile",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\lib\\net46\\System.IO.Compression.ZipFile.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.FileSystem",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem\\4.3.0\\lib\\net46\\System.IO.FileSystem.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.FileSystem.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\lib\\net46\\System.IO.FileSystem.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Packaging",
+        "Version": "4.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.packaging\\4.4.1\\lib\\net46\\System.IO.Packaging.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.packaging\\4.4.1"
     },
     {
       "Package": {
@@ -1354,9 +1958,39 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\4.7.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.io.pipelines\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Linq",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.linq\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.linq\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Linq.Expressions",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.linq.expressions\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.linq.expressions\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Management.Automation",
+        "Version": "6.1.7601.17515"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.management.automation\\6.1.7601.17515\\lib\\net45\\System.Management.Automation.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.management.automation\\6.1.7601.17515"
     },
     {
       "Package": {
@@ -1364,9 +1998,39 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.4"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.4"
+    },
+    {
+      "Package": {
+        "Id": "System.Net.Http",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.net.http\\4.3.0\\lib\\net46\\System.Net.Http.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.net.http\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Net.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.net.primitives\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.net.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Net.Sockets",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.net.sockets\\4.3.0\\lib\\net46\\System.Net.Sockets.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.net.sockets\\4.3.0"
     },
     {
       "Package": {
@@ -1374,9 +2038,79 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.ObjectModel",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.objectmodel\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.objectmodel\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Reflection",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Reflection.Extensions",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.extensions\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Reflection.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Reflection.TypeExtensions",
+        "Version": "4.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\lib\\net461\\System.Reflection.TypeExtensions.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Resources.ResourceManager",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime\\4.3.0"
     },
     {
       "Package": {
@@ -1384,9 +2118,129 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.Extensions",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.extensions\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.Handles",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.handles\\4.3.0\\lib\\net46\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.handles\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.InteropServices",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.interopservices\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.InteropServices.RuntimeInformation",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\lib\\net45\\System.Runtime.InteropServices.RuntimeInformation.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.Numerics",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.numerics\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Security.Cryptography.Algorithms",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\lib\\net461\\System.Security.Cryptography.Algorithms.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Security.Cryptography.Encoding",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\lib\\net46\\System.Security.Cryptography.Encoding.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Security.Cryptography.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\lib\\net46\\System.Security.Cryptography.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Security.Cryptography.X509Certificates",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\lib\\net461\\System.Security.Cryptography.X509Certificates.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Security.Principal.Windows",
+        "Version": "4.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows\\4.4.1\\lib\\net461\\System.Security.Principal.Windows.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows\\4.4.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.Encoding",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.Encoding.Extensions",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -1394,9 +2248,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\lib\\net461\\System.Text.Encodings.Web.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\lib\\net461\\System.Text.Encodings.Web.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\4.7.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\4.7.1"
     },
     {
       "Package": {
@@ -1404,9 +2258,29 @@
         "Version": "4.7.2"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.7.2\\lib\\net461\\System.Text.Json.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\4.7.2\\lib\\net461\\System.Text.Json.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.7.2"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\4.7.2"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.RegularExpressions",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.text.regularexpressions\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading\\4.3.0"
     },
     {
       "Package": {
@@ -1414,19 +2288,29 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\4.7.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.channels\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Tasks",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks\\4.3.0"
     },
     {
       "Package": {
         "Id": "System.Threading.Tasks.Dataflow",
-        "Version": "4.10.0"
+        "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
@@ -1434,9 +2318,19 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Timer",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.timer\\4.3.0\\lib\\net451\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.timer\\4.3.0"
     },
     {
       "Package": {
@@ -1444,160 +2338,167 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\system.valuetuple\\4.5.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.valuetuple\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Xml.ReaderWriter",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\lib\\net46\\System.Xml.ReaderWriter.dll"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.readerwriter\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Xml.XDocument",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xdocument\\4.3.0"
     },
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "20.10.7585.27318"
+        "Version": "21.4.23.31065"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath\\20.10.7585.27318\\lib\\UiPath.Interop.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath\\21.4.23.31065\\lib\\net45\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath\\20.10.7585.27318"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath\\21.4.23.31065"
     },
     {
       "Package": {
         "Id": "UiPath.Excel.Activities",
-        "Version": "2.9.3"
+        "Version": "2.10.4"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.9.3\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.9.3\\lib\\net461\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.9.3\\lib\\net461\\UiPath.Excel.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4\\lib\\net461\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4\\lib\\net461\\UiPath.Excel.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.excel.activities\\2.9.3"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.excel.activities\\2.10.4"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Activities",
-        "Version": "2.4.0"
+        "Version": "3.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Core.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.activities\\2.4.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.activities\\3.0.0"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.7.1"
+        "Version": "2.7.3"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3"
     },
     {
       "Package": {
         "Id": "UiPath.PDF.Activities",
-        "Version": "3.3.0"
+        "Version": "3.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities\\3.3.0\\lib\\net461\\UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities\\3.3.0\\lib\\net461\\UiPath.PDF.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities\\3.3.0\\lib\\net461\\UiPath.PDF.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0\\lib\\net461\\UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0\\lib\\net461\\UiPath.PDF.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0\\lib\\net461\\UiPath.PDF.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0\\lib\\net461\\UiPath.PDF.Telemetry.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.pdf.activities\\3.3.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.pdf.activities\\3.4.0"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "20.10.4"
+        "Version": "21.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.platform\\20.10.4\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.platform\\21.4.0\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.platform\\20.10.4"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.platform\\21.4.0"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "20.10.1"
+        "Version": "21.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\CustomInputForm.exe",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities\\21.4.0\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities\\21.4.0\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities\\21.4.0\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.system.activities\\20.10.1"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.system.activities\\21.4.0"
     },
     {
       "Package": {
         "Id": "UiPath.Telemetry.Client",
-        "Version": "1.2.20"
+        "Version": "1.3.18"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.telemetry.client\\1.2.20\\lib\\net461\\TelemetryClient.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.telemetry.client\\1.3.18\\lib\\net461\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.telemetry.client\\1.2.20"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.telemetry.client\\1.3.18"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.10.6"
+        "Version": "21.4.3"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomation.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "2.2.0"
+        "Version": "3.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.vision\\2.2.0"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.vision\\3.0.1"
     },
     {
       "Package": {
         "Id": "UiPath.Word.Activities",
-        "Version": "1.5.3"
+        "Version": "1.6.4"
       },
       "Assemblies": [
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.Activities.dll",
-        "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.dll"
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4\\lib\\net461\\UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4\\lib\\net461\\UiPath.Word.Activities.Package.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4\\lib\\net461\\UiPath.Word.Activities.dll",
+        "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4\\lib\\net461\\UiPath.Word.dll"
       ],
-      "Path": "C:\\Users\\user\\.nuget\\packages\\uipath.word.activities\\1.5.3"
+      "Path": "C:\\Users\\Administrator\\.nuget\\packages\\uipath.word.activities\\1.6.4"
     }
   ]
 }
