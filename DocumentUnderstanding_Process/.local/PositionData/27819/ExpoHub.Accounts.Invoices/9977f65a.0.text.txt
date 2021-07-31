@@ -1,0 +1,29 @@
+ExpoHub expohub street
+
+123456789
+
+ABC 123456 India
+
+Billed To Nagesh Reddy.
+
+Description Shared Hosting LateFee
+
+Date of Issue 22/04/2020
+
+Due Date 22/05/2020
+
+Invoice Number 873101.
+
+Rate Rs.25,878.00 Rs.300.00 Rs.0.00
+
+Amount Due (INR)
+
+Rs.26,178.00
+
+Qty Line Total 1 Rs.25,878.00 1 Rs.300.00 1 Rs.0.00
+
+Subtotal           26,178.00   
+Tax                0.00        
+Total              26,178.00   
+Amount Paid        0.00        
+Amount Due (INR)   Rs.26,178.00
